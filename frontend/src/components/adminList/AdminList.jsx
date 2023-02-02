@@ -37,6 +37,7 @@ const AdminList = ({ users, tripId, setTrip, socket }) => {
           <p>{users.name}</p>
           <p>{users.email}</p>
         </div>
+        {user._id !== users._id ? (
           <div className="btns__move">
             {" "}
             <button
@@ -52,6 +53,9 @@ const AdminList = ({ users, tripId, setTrip, socket }) => {
               remove
             </button>
           </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
