@@ -19,21 +19,23 @@
   gap: 30px;
 }
 
-
 .admin__list__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    border-radius: 12px;
-    height: 25px;
-    font-size: 15px;
-    text-transform: capitalize;
-    cursor: pointer;
-  }
-  
-  .btn__admin {
-    background-color: green;
-    color: white;
-    font-weight: 700;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  height: 25px;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn__admin {
+  background-color: green;
+  color: white;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+
+}
