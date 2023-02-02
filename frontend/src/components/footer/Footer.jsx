@@ -9,6 +9,7 @@ const Footer = () => {
         <p className="footer__message">
           The best place to create great moments.
         </p>
+        <p className="">Contact us at <a target="_blank" href="mailto:socialtrip@gmail.com">socialtrip@gmail</a></p>
         <p className="footer__message">
           Copyright © 2022 Social Trip All rights reserved.
         </p>

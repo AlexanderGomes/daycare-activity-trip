@@ -102,7 +102,7 @@ const UsersList = ({ tripId, setUser, socket, data, users }) => {
         <div className="list__info">
           <div>
             <p>{data.name}</p>
-            <p>{data.email}</p>
+            <p>{data.email.slice(0,18)}</p>
           </div>
           <div className="list__btns">
             {isOnTrip === true ? (

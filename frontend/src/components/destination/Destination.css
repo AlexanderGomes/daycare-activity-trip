@@ -141,7 +141,7 @@
 }
 .dest__input__popup {
   height: 20px;
-  width: 300px;
+  /* width: 300px; */
   border-radius: 12px;
   border-color: rgb(33, 67, 67);
   background-color: aliceblue;
