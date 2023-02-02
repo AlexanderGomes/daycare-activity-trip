@@ -1,0 +1,43 @@
+.noti__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.noti__info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(232, 214, 190);
+  width: 400px;
+  border-radius: 12px;
+  gap: 10px;
+}
+
+.noti__desc {
+  font-weight: 700;
+}
+
+.noti__btns {
+  display: flex;
+  gap: 20px;
+}
+
+.noti__accept {
+  width: 100px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.noti__decline {
+  width: 100px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}

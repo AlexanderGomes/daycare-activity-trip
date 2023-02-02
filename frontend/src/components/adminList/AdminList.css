@@ -1,0 +1,39 @@
+.move {
+  flex-direction: column;
+}
+
+.admin__info {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  width: 350px;
+  background-color: rgb(232, 214, 190);
+  padding: 10px;
+  font-size: 20px;
+  flex-direction: column;
+}
+
+.btns__move {
+  margin-top: 15px;
+  display: flex;
+  gap: 30px;
+}
+
+
+.admin__list__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 12px;
+    height: 25px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  .btn__admin {
+    background-color: green;
+    color: white;
+    font-weight: 700;
+  }

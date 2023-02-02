@@ -1,0 +1,32 @@
+.btn__admin {
+}
+
+.btns__admin {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  border-radius: 12px;
+  height: 25px;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn__admin {
+  background-color: green;
+  color: white;
+  font-weight: 700;
+}
+
+.btn__remove {
+  background-color: red;
+  color: white;
+  font-weight: 700;
+}

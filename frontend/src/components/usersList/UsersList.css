@@ -1,0 +1,33 @@
+.list__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.list__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  width: 300px;
+  background-color: rgb(232, 214, 190);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btn__invite {
+  width: 80px;
+  border-radius: 12px;
+  font-size: 16px;
+  border-color: aqua;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.on__trip {
+  padding: 10px;
+  color: green;
+  font-weight: 700;
+}

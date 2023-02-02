@@ -1,0 +1,146 @@
+/* main divs */
+.navbar__main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.color__nav {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 10px 5px rgb(234, 231, 231);
+  align-items: center;
+  padding: 10px;
+  height: 80px;
+}
+
+/* slogan */
+.navbar__slogan {
+  color: rgb(180, 180, 67);
+  font-size: 23px;
+}
+
+/* icons */
+.navbar__icons__ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 20px;
+}
+
+.close__icon {
+  cursor: pointer;
+}
+
+/* toggle */
+.toggle__main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 6px 9px 50px -29px rgba(0, 0, 0, 0.75);
+  right: 0;
+}
+
+.toggle__color {
+  position: absolute;
+  backdrop-filter: blur(4px);
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  overflow-y: hidden;
+}
+
+.toggle__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 5px solid rgb(180, 180, 67);
+}
+
+.slogan__toggle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.toggle__icons__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.toggle__details {
+  color: rgb(117, 116, 116);
+}
+
+.color {
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.stop__scroll {
+  overflow-y: hidden;
+}
+
+.open__icon {
+  cursor: pointer;
+}
+
+.noti__icon {
+  cursor: pointer;
+}
+
+.desc__nodata__a {
+  font-size: 20px;
+}
+
+.navbar__noti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 20px;
+}
+
+.span__noti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-weight: 600;
+  background-color: rgb(230, 227, 227);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: -15px;
+  left: -12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 610px) {
+  .navbar__icons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 610px) {
+  .open__icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .toggle__main {
+    width: 300px;
+  }
+}

@@ -1,0 +1,117 @@
+.over__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 60px;
+}
+
+.over__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(232, 214, 190);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.over__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.over__label {
+  color: grey;
+  font-size: 20px;
+}
+
+.over__warning {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  color: grey;
+  font-weight: 700;
+}
+
+.move {
+  margin-top: 40px;
+}
+
+.over__suggest {
+  color: rgb(10, 16, 16);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.over__warning__span {
+  color: black;
+}
+
+.over__add__user {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.over__user__p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(232, 214, 190);
+  width: 200px;
+  height: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dash__search {
+  margin-bottom: 20px;
+  width: 200px;
+  border-radius: 12px;
+  font-size: 17px;
+}
+
+.over__user__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.over__user__list {
+}
+
+.over__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  border-radius: 12px;
+  gap: 25px;
+  font-size: 20px;
+  background-color: rgb(232, 214, 190);
+  font-weight: 600;
+  width: 200px;
+}
+
+.over__info__admin {
+  color: rgb(13, 88, 16);
+  cursor: pointer;
+}
+
+.over__info__tr {
+  color: rgb(105, 29, 19);
+  cursor: pointer;
+}

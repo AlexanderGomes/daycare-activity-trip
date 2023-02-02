@@ -1,0 +1,223 @@
+.obj__main {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.obj__color {
+  display: flex;
+  background-color: rgb(226, 232, 232);
+  border-radius: 12px;
+  min-height: 350px;
+  width: 300px;
+  flex-direction: column;
+}
+
+.obj__info {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.obj__address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  width: 80%;
+}
+
+.obj__img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 12px 12px;
+}
+
+.obj__bottom {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  width: 100px;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.obj__map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.obj__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  height: 30px;
+  font-size: 18px;
+  width: 70px;
+  border-radius: 12px;
+  margin-left: 210px;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 7px 54px -9px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 10px 7px 54px -9px rgba(0, 0, 0, 0.63);
+  box-shadow: 10px 7px 54px -9px rgba(0, 0, 0, 0.63);
+}
+
+/* popup */
+
+.obj__popup__main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  min-height: 200px;
+  background-color: white;
+  min-width: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 4px 27px 15px rgba(0, 0, 0, 0.23);
+  box-shadow: 10px 4px 27px 15px rgba(0, 0, 0, 0.143);
+}
+
+.obj__popup__color {
+  position: fixed;
+  backdrop-filter: blur(4px);
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  overflow-y: hidden;
+}
+
+.obj__popup__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  border-bottom: 5px solid rgb(180, 180, 67);
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+}
+
+.obj__trip__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.obj__icon__close {
+  cursor: pointer;
+  color: rgb(96, 18, 18);
+  margin-right: 10px;
+}
+
+.obj__bottom__confirm {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.obj__cancel__btn {
+  background-color: brown;
+  border-color: brown;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.obj__delete__btn {
+  background-color: rgb(44, 165, 42);
+  border-color: rgb(44, 165, 42);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.obj__tr__size {
+  width: 30px;
+  cursor: pointer;
+}
+
+.obj__trophies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.obj__troph__n {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.obj__setWinner {
+  margin-top: 20px;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 12px;
+  border-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.obj__winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  background-color: white;
+  width: 120px;
+  border-radius: 12px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 175px;
+}
+
+.obj__tr__size__winner {
+  width: 25px;
+}
+
+.obj__p__winner {
+  color: rgb(78, 78, 19);
+  font-weight: 700;
+}
+
+.obj__pick__btn {
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  border-color: rgb(17, 107, 45);
+  font-weight: 600;
+  background-color: rgb(17, 107, 45);
+  color: white;
+}
