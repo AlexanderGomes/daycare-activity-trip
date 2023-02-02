@@ -211,7 +211,7 @@ const Trip = ({ trips, socket }) => {
                 </label>
                 {file ? (
                   <div className="popup__file__check">
-                    <p>file choosen</p>
+                    <p>file chosen</p>
                     <AiFillCheckCircle />
                   </div>
                 ) : (
