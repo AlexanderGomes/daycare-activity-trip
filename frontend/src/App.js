@@ -22,7 +22,7 @@ function App() {
   const [updatedUser, setUpdatedUser] = useState(null);
 
   useEffect(() => {
-    socket.current = io("ws://localhost:8900");
+    socket.current = io("https://trip-planner12.herokuapp.com");
   }, []);
 
   const { user } = useSelector((state) => state.auth);
