@@ -24,7 +24,6 @@
 .trip__img__edit {
   width: 400px;
   border-radius: 12px;
-  object-fit: cover;
   opacity: 0.8;
   height: 200px;
   -webkit-box-shadow: 10px 7px 54px -9px rgba(0, 0, 0, 0.63);
