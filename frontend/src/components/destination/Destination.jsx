@@ -10,7 +10,7 @@ import Empty from "../../assets/resort.png";
 import Search from "../../assets/Search-pana.svg";
 import { toast } from "react-hot-toast";
 import "./Destination.css";
-import { KEY } from "../../../../config";
+
 // components
 import { ObjctList } from "../../components";
 
