@@ -116,7 +116,7 @@ const Overview = ({
       {isAdmin === true ? (
         <div className="over__add__user">
           <p className="over__user__p" onClick={() => setPopUp(true)}>
-            Add user by Email
+            invite friends by Email
           </p>
         </div>
       ) : (
@@ -142,7 +142,6 @@ const Overview = ({
         setTrip={setTrip}
         setUser={setUser}
         socket={socket}
-
       />
       <TrList
         setPopUp={setTrPopUp}
@@ -318,6 +317,9 @@ const UsersPopUp = ({
               placeholder="Search By Email"
               onChange={(event) => setSearch(event.target.value)}
             />
+            <p className="popup__disclaimer">
+              <span className="popup__dis__span">Disclaimer:</span> User have to be registered to be invited
+            </p>
             <div className="dest__list__main">
               {users
                 ?.filter((val) => {

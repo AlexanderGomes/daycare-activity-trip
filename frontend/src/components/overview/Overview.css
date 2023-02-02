@@ -115,3 +115,13 @@
   color: rgb(105, 29, 19);
   cursor: pointer;
 }
+
+.popup__disclaimer {
+  font-size: 17px;
+  color: grey;
+  font-weight: 700;
+}
+
+.popup__dis__span {
+  color: red;
+}
