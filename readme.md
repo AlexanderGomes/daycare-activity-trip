@@ -6,7 +6,7 @@ Visit on: <a href='https://www.tripplanet.org'>www.tripplanet.org</a>
 
 ## Functionality
 
- you have the following options to add and vote for: restaurants, stays, activities, and the actual destination (the country you're going to).
+you have the following options to add and vote for: restaurants, stays, activities, and the actual destination (the country you're going to).
 
 The Person who created the trip can invite people by their emails, a remainder that the user must be registered to be able to be invited to any trip
 
@@ -19,12 +19,11 @@ All functions happen immediately because of socket.io, so removing an user from 
 ## How to start the Applications
 
 1. Run npm install from the root directory
-2. cd into frontend and run npm install 
+2. cd into frontend and run npm install
 3. from the root directory run the followings:
 4. npm run server
 5. npm run client
 6. npm run socket
-
 
 ## What could I have done better ?
 
@@ -34,3 +33,6 @@ All functions happen immediately because of socket.io, so removing an user from 
 
 3. being used to building smaller applications gave me the false impression of how long it actually takes to build something, be realistic with yourself.
 
+4. use your state management (Redux) properly, and deal with react state better than the standard way.
+
+5. remove  unnecessary javascript from your project, the simplest the better it's.
