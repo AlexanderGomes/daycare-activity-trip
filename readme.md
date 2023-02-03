@@ -21,9 +21,9 @@ All functions happen immediately because of socket.io, so removing an user from 
 1. Run npm install from the root directory
 2. cd into frontend and run npm install 
 3. from the root directory run the followings:
-3a. npm run server
-3b. npm run client
-3c. npm run socket
+4. npm run server
+5. npm run client
+6. npm run socket
 
 
 ## API KEYS
