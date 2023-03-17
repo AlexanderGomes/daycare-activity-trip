@@ -1,6 +1,6 @@
 ## Trip Planner Project with MERN stack
 
-A place where people can plan trips together, you can invite as many friends as you want and vote for the best places to go, all the information changes live.
+This application is part of the daycare application I made previously, Brazilian kids that were brought to the US young and never go to see their home country now have a fun way to vote on places they find pettry as part of the daycare activities, they learned about a lot of our culture, it was intended to have just destination, not all the other fields but I thought it looked cool.
 
 Visit on: <a href='https://www.tripplanet.org'>www.tripplanet.org</a>
 
