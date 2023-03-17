@@ -32,14 +32,3 @@ All functions happen immediately because of socket.io, so removing an user from 
 5. npm run client
 6. npm run socket
 
-## What could I have done better ?
-
-1. lack of organization with socket.io, because I didn't have enough time I ended up just wanting to get things done instead of following best practices.
-
-2. document your code and thoughts during development not at the end of it, writing clean code helps but is still good to document your code.
-
-3. being used to building smaller applications gave me the false impression of how long it actually takes to build something, be realistic with yourself.
-
-4. use your state management (Redux) properly, and deal with react state better than the standard way.
-
-5. remove  unnecessary javascript from your project, the simplest the better it's.
