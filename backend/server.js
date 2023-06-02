@@ -48,7 +48,7 @@ const server = app.listen(port, async () => {
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://www.tripplanet.org",
+    origin: "http://www.tripplanet.org",
   },
 });
 
